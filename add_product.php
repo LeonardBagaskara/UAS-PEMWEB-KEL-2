@@ -25,16 +25,17 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 </head>
 <body>
     <h1>Tambahkan Produk</h1>
-    <form method="post">
-        <label for="id">id:</label><br>
-        <input type="text" id="id" name="id"><br>
-        <label for="produk">produk:</label><br>
-        <input type="text" id="produk" name="produk"><br>
-        <label for="stok">stok:</label><br>
-        <input type="number" id="stok" name="stok"><br>
-        <label for="harga">harga:</label><br>
-        <input type="number" id="harga" name="harga" step="0.01"><br><br>
-        <input type="submit" value="Tambahkan Produk">
-    </form>
+    <form method="post" id="productForm">
+    <label for="id">ID:</label><br>
+    <input type="number" id="id" name="id"><br>
+    <label for="produk">Produk:</label><br>
+    <input type="text" id="produk" name="produk"><br>
+    <label for="stok">Stok:</label><br>
+    <input type="number" id="stok" name="stok"><br>
+    <label for="harga">Harga:</label><br>
+    <input type="number" id="harga" name="harga" step="0.01"><br><br>
+    <input type="submit" value="Add Product">
+</form>
+
 </body>
 </html>
