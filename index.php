@@ -36,7 +36,7 @@ $result = $conn->query($sql);
                     <th>Produk</th>
                     <th>Stok</th>
                     <th>Harga</th>
-                    <th>Actions</th>
+                    <th>Tindakan</th>
                 </tr>
             </thead>
             <tbody>
