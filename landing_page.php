@@ -5,28 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to Inventory App</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
         body {
-            background: linear-gradient(45deg, #f3ec78, #af4261);
-            font-family: Arial, sans-serif;
-            color: #fff;
-            text-align: center;
-            padding: 0;
+            font-family: 'Arial', sans-serif;
             margin: 0;
+            padding: 0;
         }
         header {
-            background: rgba(0, 0, 0, 0.5);
-            padding: 10px 20px;
-            text-align: left;
+            background: #000;
+            color: #fff;
+            padding: 20px 10;
         }
         .container {
             width: 80%;
             margin: auto;
-            overflow: hidden;
         }
         #branding {
-            float: left;
+            text-align: left;
         }
         #branding h1 {
             margin: 0;
@@ -36,42 +31,48 @@
             margin-top: 10px;
         }
         nav ul {
-            padding: 0;
             list-style: none;
+            padding: 0;
+            margin: 0;
         }
         nav ul li {
             display: inline;
-            margin-left: 5px;
+            margin-left: 10px;
         }
         nav ul li a {
             color: #fff;
             text-decoration: none;
+            font-size: 16px
         }
         .showcase {
             height: 100vh;
-            background: url('showcase.jpg') no-repeat center center/cover;
+            background: url('wallpaper.jpg') no-repeat center center/cover;
             display: flex;
             justify-content: center;
             align-items: center;
             text-align: center;
+            color: #000;
         }
         .showcase h1 {
             font-size: 3em;
-            margin: 0;
+            margin-bottom: 10px;
+        }
+        .showcase p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
         }
         .btn {
             display: inline-block;
             text-decoration: none;
-            color: #fff;
-            border: 1px solid #fff;
+            color: #000;
+            border: 2px solid #000;
             padding: 10px 20px;
             font-size: 1em;
-            margin-top: 20px;
-            transition: background 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
         }
         .btn:hover {
-            background: #fff;
-            color: #af4261;
+            background: #000;
+            color: #fff;
         }
     </style>
 </head>
