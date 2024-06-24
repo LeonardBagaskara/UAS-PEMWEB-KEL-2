@@ -36,9 +36,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET' && isset($_GET['id'])) {
             </div>
             <nav>
                 <ul>
-                    <li><a href="landing_page.php">Landing</a></li>
-                    <li><a href="index.php">Home</a></li>
-                    <li><a href="add_inventory.php">Add Inventory</a></li>
+                    <li><a href="landing_page.php">Home</a></li>
+                    <li><a href="index.php">Inventory</a></li>
                     <li><a href="about.php">About</a></li>
                 </ul>
             </nav>
