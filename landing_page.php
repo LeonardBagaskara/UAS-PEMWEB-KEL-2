@@ -51,7 +51,7 @@
             justify-content: center;
             align-items: center;
             text-align: center;
-            color: #000;
+            color: #fff;
         }
         .showcase h1 {
             font-size: 3em;
