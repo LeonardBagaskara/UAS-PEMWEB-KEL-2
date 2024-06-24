@@ -32,7 +32,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET' && isset($_GET['id'])) {
     <header>
         <div class="container">
             <div id="branding">
-                <h1>Inventory App</h1>
+                <h1>INVTRY</h1>
             </div>
             <nav>
                 <ul>
