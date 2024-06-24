@@ -20,14 +20,14 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Add Product</title>
+    <title>Tambah Produk</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <div class="container">
             <div id="branding">
-                <h1>Inventory App</h1>
+                <h1>INVTRY</h1>
             </div>
             <nav>
                 <ul>
@@ -38,7 +38,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         </div>
     </header>
     <div class="container">
-        <h1>Add Product</h1>
+        <h1>Tambah Produk</h1>
         <form method="post" id="productForm">
             <label for="produk">Produk:</label><br>
             <input type="text" id="produk" name="produk"><br>
@@ -46,7 +46,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             <input type="number" id="stok" name="stok"><br>
             <label for="harga">Harga:</label><br>
             <input type="number" id="harga" name="harga" step="0.01"><br><br>
-            <input type="submit" value="Add Product" class="btn btn-add">
+            <input type="submit" value="Tambahkan" class="btn btn-add">
         </form>
     </div>
 </body>
