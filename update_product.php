@@ -53,7 +53,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET' && isset($_GET['id'])) {
             <input type="number" id="stok" name="stok" value="<?php echo $inventory['stok']; ?>"><br>
             <label for="harga">Harga:</label><br>
             <input type="number" id="harga" name="harga" step="0.01" value="<?php echo $inventory['harga']; ?>"><br><br>
-            <input type="submit" value="Update Product" class="btn btn-primary">
+            <input type="submit" value="Update Stok" class="btn btn-primary">
         </form>
     </div>
 </body>
