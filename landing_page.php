@@ -61,6 +61,7 @@
         .showcase p {
             font-size: 1.2em;
             margin-bottom: 20px;
+            color: #fff;
         }
         .btn {
             display: inline-block;
