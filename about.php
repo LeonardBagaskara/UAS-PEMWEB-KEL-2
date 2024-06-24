@@ -10,7 +10,7 @@
     <header>
         <div class="container">
             <div id="branding">
-                <h1>Inventory</h1>
+                <h1>INVTRY</h1>
             </div>
             <nav>
                 <ul>
