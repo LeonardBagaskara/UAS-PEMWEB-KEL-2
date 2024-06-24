@@ -56,6 +56,7 @@
         .showcase h1 {
             font-size: 3em;
             margin-bottom: 10px;
+            color: #fff;
         }
         .showcase p {
             font-size: 1.2em;
@@ -64,15 +65,15 @@
         .btn {
             display: inline-block;
             text-decoration: none;
-            color: #000;
-            border: 2px solid #000;
+            color: #fff;
+            border: 2px solid #fff;
             padding: 10px 20px;
             font-size: 1em;
             transition: all 0.3s ease-in-out;
         }
         .btn:hover {
-            background: #000;
-            color: #fff;
+            background: #fff;
+            color: #000;
         }
     </style>
 </head>
