@@ -24,18 +24,30 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Tambahkan Produk</h1>
-    <form method="post" id="productForm">
-    <label for="id">ID:</label><br>
-    <input type="number" id="id" name="id"><br>
-    <label for="produk">Produk:</label><br>
-    <input type="text" id="produk" name="produk"><br>
-    <label for="stok">Stok:</label><br>
-    <input type="number" id="stok" name="stok"><br>
-    <label for="harga">Harga:</label><br>
-    <input type="number" id="harga" name="harga" step="0.01"><br><br>
-    <input type="submit" value="Add Product">
-</form>
-
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>Inventory App</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="landing_page.php">Home</a></li>
+                    <li><a href="about.php">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Add Product</h1>
+        <form method="post" id="productForm">
+            <label for="produk">Produk:</label><br>
+            <input type="text" id="produk" name="produk"><br>
+            <label for="stok">Stok:</label><br>
+            <input type="number" id="stok" name="stok"><br>
+            <label for="harga">Harga:</label><br>
+            <input type="number" id="harga" name="harga" step="0.01"><br><br>
+            <input type="submit" value="Add Product" class="btn btn-add">
+        </form>
+    </div>
 </body>
 </html>
