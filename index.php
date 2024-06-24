@@ -18,7 +18,7 @@ $result = $conn->query($sql);
     <header>
         <div class="container">
             <div id="branding">
-                <h1>Inventory</h1>
+                <h1>INVTRY</h1>
             </div>
             <nav>
                 <ul>
@@ -29,8 +29,8 @@ $result = $conn->query($sql);
         </div>
     </header>
     <div class="container">
-        <h1>Product List</h1>
-        <button class="btn btn-add" onclick="window.location.href='add_product.php'">Add New Product</button>
+        <h1>Daftar Produk</h1>
+        <button class="btn btn-add" onclick="window.location.href='add_product.php'">Tambahkan</button>
         <table>
             <thead>
                 <tr>
