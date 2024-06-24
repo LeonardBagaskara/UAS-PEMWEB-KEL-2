@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to Inventory App</title>
+    <title>INVTRY</title>
     <link rel="stylesheet" href="styles.css">
     <style>
         body {
@@ -80,19 +80,20 @@
     <header>
         <div class="container">
             <div id="branding">
-                <h1>Inventory App</h1>
+                <h1>INVTRY</h1>
             </div>
             <nav>
                 <ul>
                     <li><a href="landing_page.php">Home</a></li>
                     <li><a href="index.php">Inventory</a></li>
+                    <li><a href="about.php">About</a></li>
                 </ul>
             </nav>
         </div>
     </header>
     <section class="showcase">
         <div class="container">
-            <h1>Welcome to the Inventory App</h1>
+            <h1>Welcome to the INVTRY</h1>
             <p>Manage your products efficiently and effortlessly.</p>
             <a href="index.php" class="btn">Get Started</a>
         </div>
