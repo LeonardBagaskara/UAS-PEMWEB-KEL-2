@@ -29,20 +29,33 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET' && isset($_GET['id'])) {
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Update Stok</h1>
-    <form method="post">
-        <?php if (isset($product)): ?>
-            <input type="hidden" name="id" value="<?php echo $product['id'];?>">
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>Inventory App</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="landing_page.php">Landing</a></li>
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="add_inventory.php">Add Inventory</a></li>
+                    <li><a href="about.php">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Update Stok</h1>
+        <form class="form-style" method="post">
+            <input type="hidden" name="id" value="<?php echo $inventory['id']; ?>">
             <label for="produk">Produk:</label><br>
-            <input type="text" id="produk" name="produk" value="<?php echo $product['produk'];?>"><br>
+            <input type="text" id="produk" name="produk" value="<?php echo $inventory['produk']; ?>"><br>
             <label for="stok">Stok:</label><br>
-            <input type="number" id="stok" name="stok" value="<?php echo $product['stok'];?>"><br>
+            <input type="number" id="stok" name="stok" value="<?php echo $inventory['stok']; ?>"><br>
             <label for="harga">Harga:</label><br>
-            <input type="number" id="harga" name="harga" step="0.01" value="<?php echo $product['harga'];?>"><br><br>
-            <input type="submit" value="Update Stok">
-        <?php else: ?>
-            <p>No product found.</p>
-        <?php endif; ?>
-    </form>
+            <input type="number" id="harga" name="harga" step="0.01" value="<?php echo $inventory['harga']; ?>"><br><br>
+            <input type="submit" value="Update Product" class="btn btn-primary">
+        </form>
+    </div>
 </body>
 </html>
